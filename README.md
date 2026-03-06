@@ -1,4 +1,4 @@
-# AI-Powered Interview Assistant
+# AI-Interview Coach
 
 Interactive, browser-first interview simulator built with **React + TypeScript + Vite**. Candidates practice a timed, full-stack interview while interviewers monitor real-time analytics, review transcripts, and manage leaderboard rankings. All data persists in the browser so sessions survive refreshes, accidental closes, and device sleep.
 
@@ -150,8 +150,5 @@ src/
 │   └── scoring.ts
 └── types/index.ts
 ```
-
-## 🙌 Credits
-Sumit Ranjan 
 
 
