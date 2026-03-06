@@ -1,6 +1,8 @@
 # AI-Interview Coach
 
-Interactive, browser-first interview simulator built with **React + TypeScript + Vite**. Candidates practice a timed, full-stack interview while interviewers monitor real-time analytics, review transcripts, and manage leaderboard rankings. All data persists in the browser so sessions survive refreshes, accidental closes, and device sleep.
+AI Interview Coach is a browser-based mock interview platform designed to help candidates practice technical interviews. 
+
+The system generates AI-powered interview questions, allows users to answer them interactively, and provides feedback to improve performance. This project demonstrates how AI can assist with interview preparation and skill evaluation.
 
 <img width="1905" height="891" alt="image" src="https://github.com/user-attachments/assets/7dd22007-0b9d-4be7-a34f-357ce4293510" />
 
