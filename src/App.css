@@ -1,0 +1,35 @@
+.app-shell {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #eef2ff 0%, #f8fafc 100%);
+}
+
+.app-header {
+  background: transparent !important;
+  padding: 24px 48px;
+}
+
+.app-title {
+  color: #1f2933 !important;
+  margin: 0 !important;
+}
+
+.app-content {
+  padding: 0 48px 48px;
+}
+
+.interviewee-view,
+.interviewer-view {
+  width: 100%;
+}
+
+.clickable-row {
+  cursor: pointer;
+}
+
+.clickable-row:hover td {
+  background: #f0f4ff !important;
+}
+
+.chat-window {
+  scrollbar-width: thin;
+}

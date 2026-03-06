@@ -1,0 +1,59 @@
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: #f7f9fc;
+  border-radius: 12px;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.chat-message {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.chat-message__header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.chat-message__timestamp {
+  font-size: 12px;
+}
+
+.chat-message__bubble {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.08);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.chat-message--candidate .chat-message__bubble {
+  background: linear-gradient(135deg, #3f51b5, #6573c3);
+  color: #ffffff;
+  align-self: flex-end;
+}
+
+.chat-message--candidate .chat-message__header {
+  flex-direction: row-reverse;
+}
+
+.chat-message--candidate .chat-message__timestamp {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.chat-message--candidate .chat-message__tag {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+.chat-message__tag {
+  margin-bottom: 8px;
+}
